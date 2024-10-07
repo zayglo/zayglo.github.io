@@ -37,9 +37,23 @@
         ul li {
             margin-bottom: 10px;
         }
+        /* Spacing between job title and responsibilities */
+        .responsibilities {
+            margin-top: 10px;
+        }
+        /* Adds indentation and spacing for the responsibilities list */
         .responsibilities ul {
             list-style-type: disc;
             margin-left: 20px;
+            padding-left: 0;
+        }
+        .responsibilities ul li {
+            margin-bottom: 8px; /* Adds space between each responsibility item */
+            line-height: 1.5; /* Improves line spacing within list items */
+        }
+        /* Spacing between job experiences */
+        .work-experience li {
+            margin-bottom: 30px; /* Adds space between job sections */
         }
     </style>
 </head>
@@ -49,7 +63,7 @@
         <section class="section" id="header">
             <h1>Isaiah Harris-Winn</h1>
             <p>Email: <a href="mailto:isaiahharriswinn@gmail.com">isaiahharriswinn@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/isaiah-h-935055150/" target="_blank">https://www.linkedin.com/in/isaiah-h-935055150/</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/isaiah-h-935055150/" target="_blank">https://www.linkedin.com/in/isaiahharriswinn/</a></p>
             <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
         </section>
 
@@ -62,7 +76,7 @@
         <!-- Experience Section -->
         <section class="section" id="experience">
             <h2 class="section-title">Work Experience</h2>
-            <ul>
+            <ul class="work-experience">
                 <li>
                     <strong>Jr. Incident Response Analyst - Atlassian</strong> (July 2022 - Present)
                     <div class="responsibilities">
